@@ -1,0 +1,32 @@
+{
+  "name": "maestro-ai",
+  "version": "1.0.0",
+  "description": "Maestro AI — Multi-agent orchestration framework for Claude Code",
+  "author": "Otávio Pontes <pontescloud@gmail.com>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/otaviopontes/maestro-ai"
+  },
+  "keywords": [
+    "multi-agent",
+    "ai",
+    "orchestration",
+    "claude",
+    "automation",
+    "content",
+    "squads"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dashboard": "cd dashboard && npm run dev",
+    "dashboard:build": "cd dashboard && npm run build",
+    "dashboard:install": "cd dashboard && npm install"
+  },
+  "dependencies": {
+    "playwright": "^1.58.2"
+  },
+  "devDependencies": {}
+}

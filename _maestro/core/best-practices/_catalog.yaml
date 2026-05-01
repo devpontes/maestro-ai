@@ -1,0 +1,114 @@
+# Best Practices Catalog
+# Used by the Design phase to discover available best-practices files.
+# Each entry maps a file to its use cases — read only the files relevant to your squad.
+
+catalog:
+  - file: blog-post.md
+    name: Blog Post
+    whenToUse: "Squad produces long-form blog content, articles, or web copy"
+    tags: [content, writing, blog]
+
+  - file: blog-seo.md
+    name: Blog SEO
+    whenToUse: "Squad needs SEO-optimized blog posts, keyword targeting, or organic search strategy"
+    tags: [content, writing, blog, seo]
+
+  - file: copywriting.md
+    name: Copywriting
+    whenToUse: "Squad produces any persuasive or marketing copy — ads, headlines, CTAs, landing pages"
+    tags: [content, writing, marketing]
+
+  - file: data-analysis.md
+    name: Data Analysis
+    whenToUse: "Squad analyzes data, generates reports, or identifies patterns and trends"
+    tags: [research, analysis, data]
+
+  - file: email-newsletter.md
+    name: Email Newsletter
+    whenToUse: "Squad produces email newsletters, digest emails, or subscriber content"
+    tags: [content, email, newsletter]
+
+  - file: email-sales.md
+    name: Email Sales
+    whenToUse: "Squad produces sales emails, cold outreach, or email sequences for conversion"
+    tags: [content, email, sales]
+
+  - file: image-design.md
+    name: Image Design
+    whenToUse: "Squad creates visual content, designs images, or produces graphics for social media or marketing"
+    tags: [design, visual, social-media]
+
+  - file: instagram-feed.md
+    name: Instagram Feed
+    whenToUse: "Squad creates Instagram feed posts, carousels, or static image content for Instagram"
+    tags: [content, social-media, instagram]
+
+  - file: instagram-reels.md
+    name: Instagram Reels
+    whenToUse: "Squad creates short video scripts, Reels ideas, or video content for Instagram"
+    tags: [content, social-media, instagram, video]
+
+  - file: instagram-stories.md
+    name: Instagram Stories
+    whenToUse: "Squad creates Instagram Stories content, story sequences, or interactive polls"
+    tags: [content, social-media, instagram]
+
+  - file: linkedin-article.md
+    name: LinkedIn Article
+    whenToUse: "Squad produces long-form LinkedIn articles or thought leadership content for LinkedIn"
+    tags: [content, social-media, linkedin, writing]
+
+  - file: linkedin-post.md
+    name: LinkedIn Post
+    whenToUse: "Squad creates LinkedIn post content, professional updates, or B2B content for LinkedIn"
+    tags: [content, social-media, linkedin]
+
+  - file: researching.md
+    name: Researching
+    whenToUse: "Squad performs web research, competitive analysis, trend monitoring, or data gathering"
+    tags: [research, data, analysis]
+
+  - file: review.md
+    name: Content Review
+    whenToUse: "Squad includes a reviewer agent that evaluates, scores, or approves content produced by other agents"
+    tags: [review, quality, content]
+
+  - file: social-networks-publishing.md
+    name: Social Networks Publishing
+    whenToUse: "Squad publishes content to social media platforms, manages posting workflows, or distributes content"
+    tags: [publishing, social-media, automation]
+
+  - file: strategist.md
+    name: Content Strategist
+    whenToUse: "Squad includes a strategy layer — content planning, editorial calendars, or audience strategy"
+    tags: [strategy, content, planning]
+
+  - file: technical-writing.md
+    name: Technical Writing
+    whenToUse: "Squad produces documentation, technical guides, API references, or developer content"
+    tags: [writing, technical, documentation]
+
+  - file: twitter-post.md
+    name: Twitter/X Post
+    whenToUse: "Squad creates individual tweets or short-form posts for Twitter/X"
+    tags: [content, social-media, twitter]
+
+  - file: twitter-thread.md
+    name: Twitter/X Thread
+    whenToUse: "Squad creates Twitter/X threads, multi-post content chains, or threaded storytelling"
+    tags: [content, social-media, twitter]
+
+  - file: whatsapp-broadcast.md
+    name: WhatsApp Broadcast
+    whenToUse: "Squad produces WhatsApp broadcast messages, conversational content, or messaging campaigns"
+    tags: [content, messaging, whatsapp]
+
+  - file: youtube-script.md
+    name: YouTube Script
+    whenToUse: "Squad creates YouTube video scripts, voiceover content, or long-form video narratives"
+    tags: [content, video, youtube]
+
+  - file: youtube-shorts.md
+    name: YouTube Shorts
+    whenToUse: "Squad creates short-form video scripts or YouTube Shorts content (under 60 seconds)"
+    tags: [content, video, youtube]

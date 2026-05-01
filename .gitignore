@@ -1,0 +1,48 @@
+# ─── Environment & Secrets ────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ─── Node ─────────────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.cache/
+
+# ─── Browser Sessions (private login cookies) ─────────────────────────────────
+_maestro/_browser_profile/
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+_maestro/logs/
+*.log
+
+# ─── Build Artifacts ──────────────────────────────────────────────────────────
+dashboard/dist/
+dashboard/node_modules/
+*.tsbuildinfo
+
+# ─── Squad Outputs (generated content, not source) ───────────────────────────
+squads/*/output/*/
+!squads/*/output/.gitkeep
+
+# ─── IDE & OS ─────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
